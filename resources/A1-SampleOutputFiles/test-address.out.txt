@@ -1,0 +1,28 @@
+>Address: 34 4th Street
+Valid Address
+
+>Address: 57 2nd Avenue
+Valid Address
+
+>From: To: 
+From: 34 4th Street To: 34 4th Street
+Distance: 0 City Blocks
+
+>From: To: 
+From: 34 4th Street To: 57 2nd Avenue
+Distance: 2 City Blocks
+
+>Address: 34 14th street
+Bad Address
+
+>Address: 10 1st street
+Valid Address
+
+>Address: 91 9th avenue
+Valid Address
+
+>From: To: 
+From: 10 1st street To: 91 9th avenue
+Distance: 16 City Blocks
+
+>

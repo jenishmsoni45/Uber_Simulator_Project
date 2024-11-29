@@ -1,0 +1,237 @@
+>
+1 . Id: 9000  Name: McInerney, T.   Address: 34 5th Street   Wallet: 25.00
+2 . Id: 9001  Name: Valenzano, R.   Address: 71 1st Street   Wallet: 55.00
+3 . Id: 9002  Name: Lugez, E.       Address: 55 9th Avenue   Wallet: 125.00
+4 . Id: 9003  Name: Miranskyy, A.   Address: 15 2nd Avenue   Wallet: 15.00
+5 . Id: 9004  Name: Raman, P.       Address: 32 3rd Street   Wallet: 13.00
+6 . Id: 9005  Name: Woungang, I.    Address: 64 6th Avenue   Wallet: 27.00
+7 . Id: 9006  Name: Soutchanski, M. Address: 28 7th Avenue   Wallet: 22.00
+8 . Id: 9007  Name: Harley, E.      Address: 10 7th Avenue   Wallet: 34.00
+9 . Id: 9008  Name: Mason, D.       Address: 48 8th Street   Wallet: 11.00
+10. Id: 9009  Name: Santos, M.      Address: 83 4th Street   Wallet: 41.00
+
+>
+1 . Id: 9007  Name: Harley, E.      Address: 10 7th Avenue   Wallet: 34.00
+2 . Id: 9002  Name: Lugez, E.       Address: 55 9th Avenue   Wallet: 125.00
+3 . Id: 9008  Name: Mason, D.       Address: 48 8th Street   Wallet: 11.00
+4 . Id: 9000  Name: McInerney, T.   Address: 34 5th Street   Wallet: 25.00
+5 . Id: 9003  Name: Miranskyy, A.   Address: 15 2nd Avenue   Wallet: 15.00
+6 . Id: 9004  Name: Raman, P.       Address: 32 3rd Street   Wallet: 13.00
+7 . Id: 9009  Name: Santos, M.      Address: 83 4th Street   Wallet: 41.00
+8 . Id: 9006  Name: Soutchanski, M. Address: 28 7th Avenue   Wallet: 22.00
+9 . Id: 9001  Name: Valenzano, R.   Address: 71 1st Street   Wallet: 55.00
+10. Id: 9005  Name: Woungang, I.    Address: 64 6th Avenue   Wallet: 27.00
+
+>
+1 . Id: 9008  Name: Mason, D.       Address: 48 8th Street   Wallet: 11.00
+2 . Id: 9004  Name: Raman, P.       Address: 32 3rd Street   Wallet: 13.00
+3 . Id: 9003  Name: Miranskyy, A.   Address: 15 2nd Avenue   Wallet: 15.00
+4 . Id: 9006  Name: Soutchanski, M. Address: 28 7th Avenue   Wallet: 22.00
+5 . Id: 9000  Name: McInerney, T.   Address: 34 5th Street   Wallet: 25.00
+6 . Id: 9005  Name: Woungang, I.    Address: 64 6th Avenue   Wallet: 27.00
+7 . Id: 9007  Name: Harley, E.      Address: 10 7th Avenue   Wallet: 34.00
+8 . Id: 9009  Name: Santos, M.      Address: 83 4th Street   Wallet: 41.00
+9 . Id: 9001  Name: Valenzano, R.   Address: 71 1st Street   Wallet: 55.00
+10. Id: 9002  Name: Lugez, E.       Address: 55 9th Avenue   Wallet: 125.00
+
+>
+1 . Id: 7000 Name: Tom Cruise      Car Model: Toyota Corolla  License Plate: MAVERICK   Wallet: 0.00
+2 . Id: 7001 Name: Brad Pitt       Car Model: Audi S4         License Plate: FGDR 983   Wallet: 0.00
+3 . Id: 7002 Name: Millie Brown    Car Model: Tesla           License Plate: STRNGRTHGS Wallet: 0.00
+4 . Id: 7003 Name: Tim Chalamet    Car Model: Thopter         License Plate: DUNE       Wallet: 0.00
+5 . Id: 7004 Name: John Boyega     Car Model: X-Wing          License Plate: REBEL      Wallet: 0.00
+
+>User Account Id: From Address: To Address: 
+RIDE for: Soutchanski, M. From: 34 2nd street   To: 77 3rd avenue  
+>User Account Id: From Address: To Address: 
+RIDE for: Lugez, E.       From: 61 4th street   To: 77 8th street  
+>User Account Id: From Address: To Address: Restaurant: Food Order #: 
+DELIVERY for: McInerney, T.   From: 31 4th avenue   To: 65 6th street  
+>User Account Id: From Address: To Address: Restaurant: Food Order #: 
+DELIVERY for: Woungang, I.    From: 77 7th avenue   To: 82 6th street  
+>User Account Id: From Address: To Address: 
+RIDE for: Miranskyy, A.   From: 64 4th avenue   To: 89 6th avenue  
+>User Account Id: From Address: To Address: No Drivers Available
+
+>
+1. ------------------------------------------------------------
+Type: RIDE      From: 34 2nd street   To: 77 3rd avenue  
+User: Id: 9006  Name: Soutchanski, M. Address: 28 7th Avenue   Wallet: 22.00
+Driver: Id: 7000 Name: Tom Cruise      Car Model: Toyota Corolla  License Plate: MAVERICK   Wallet: 0.00
+
+2. ------------------------------------------------------------
+Type: RIDE      From: 61 4th street   To: 77 8th street  
+User: Id: 9002  Name: Lugez, E.       Address: 55 9th Avenue   Wallet: 125.00
+Driver: Id: 7001 Name: Brad Pitt       Car Model: Audi S4         License Plate: FGDR 983   Wallet: 0.00
+
+3. ------------------------------------------------------------
+Type: DELIVERY  From: 31 4th avenue   To: 65 6th street  
+User: Id: 9000  Name: McInerney, T.   Address: 34 5th Street   Wallet: 25.00
+Driver: Id: 7002 Name: Millie Brown    Car Model: Tesla           License Plate: STRNGRTHGS Wallet: 0.00
+Restaurant: LaScala   Food Order #: 461
+
+4. ------------------------------------------------------------
+Type: DELIVERY  From: 77 7th avenue   To: 82 6th street  
+User: Id: 9005  Name: Woungang, I.    Address: 64 6th Avenue   Wallet: 27.00
+Driver: Id: 7003 Name: Tim Chalamet    Car Model: Thopter         License Plate: DUNE       Wallet: 0.00
+Restaurant: A&W       Food Order #: 123
+
+5. ------------------------------------------------------------
+Type: RIDE      From: 64 4th avenue   To: 89 6th avenue  
+User: Id: 9003  Name: Miranskyy, A.   Address: 15 2nd Avenue   Wallet: 15.00
+Driver: Id: 7004 Name: John Boyega     Car Model: X-Wing          License Plate: REBEL      Wallet: 0.00
+
+>Request #: Service request #2 cancelled
+
+>
+1. ------------------------------------------------------------
+Type: RIDE      From: 34 2nd street   To: 77 3rd avenue  
+User: Id: 9006  Name: Soutchanski, M. Address: 28 7th Avenue   Wallet: 22.00
+Driver: Id: 7000 Name: Tom Cruise      Car Model: Toyota Corolla  License Plate: MAVERICK   Wallet: 0.00
+
+2. ------------------------------------------------------------
+Type: DELIVERY  From: 31 4th avenue   To: 65 6th street  
+User: Id: 9000  Name: McInerney, T.   Address: 34 5th Street   Wallet: 25.00
+Driver: Id: 7002 Name: Millie Brown    Car Model: Tesla           License Plate: STRNGRTHGS Wallet: 0.00
+Restaurant: LaScala   Food Order #: 461
+
+3. ------------------------------------------------------------
+Type: DELIVERY  From: 77 7th avenue   To: 82 6th street  
+User: Id: 9005  Name: Woungang, I.    Address: 64 6th Avenue   Wallet: 27.00
+Driver: Id: 7003 Name: Tim Chalamet    Car Model: Thopter         License Plate: DUNE       Wallet: 0.00
+Restaurant: A&W       Food Order #: 123
+
+4. ------------------------------------------------------------
+Type: RIDE      From: 64 4th avenue   To: 89 6th avenue  
+User: Id: 9003  Name: Miranskyy, A.   Address: 15 2nd Avenue   Wallet: 15.00
+Driver: Id: 7004 Name: John Boyega     Car Model: X-Wing          License Plate: REBEL      Wallet: 0.00
+
+>Request #: Service request #4 cancelled
+
+>
+1. ------------------------------------------------------------
+Type: RIDE      From: 34 2nd street   To: 77 3rd avenue  
+User: Id: 9006  Name: Soutchanski, M. Address: 28 7th Avenue   Wallet: 22.00
+Driver: Id: 7000 Name: Tom Cruise      Car Model: Toyota Corolla  License Plate: MAVERICK   Wallet: 0.00
+
+2. ------------------------------------------------------------
+Type: DELIVERY  From: 31 4th avenue   To: 65 6th street  
+User: Id: 9000  Name: McInerney, T.   Address: 34 5th Street   Wallet: 25.00
+Driver: Id: 7002 Name: Millie Brown    Car Model: Tesla           License Plate: STRNGRTHGS Wallet: 0.00
+Restaurant: LaScala   Food Order #: 461
+
+3. ------------------------------------------------------------
+Type: DELIVERY  From: 77 7th avenue   To: 82 6th street  
+User: Id: 9005  Name: Woungang, I.    Address: 64 6th Avenue   Wallet: 27.00
+Driver: Id: 7003 Name: Tim Chalamet    Car Model: Thopter         License Plate: DUNE       Wallet: 0.00
+Restaurant: A&W       Food Order #: 123
+
+>Request #: Successful Drop Off - Service request #1 complete
+
+>
+1. ------------------------------------------------------------
+Type: DELIVERY  From: 31 4th avenue   To: 65 6th street  
+User: Id: 9000  Name: McInerney, T.   Address: 34 5th Street   Wallet: 25.00
+Driver: Id: 7002 Name: Millie Brown    Car Model: Tesla           License Plate: STRNGRTHGS Wallet: 0.00
+Restaurant: LaScala   Food Order #: 461
+
+2. ------------------------------------------------------------
+Type: DELIVERY  From: 77 7th avenue   To: 82 6th street  
+User: Id: 9005  Name: Woungang, I.    Address: 64 6th Avenue   Wallet: 27.00
+Driver: Id: 7003 Name: Tim Chalamet    Car Model: Thopter         License Plate: DUNE       Wallet: 0.00
+Restaurant: A&W       Food Order #: 123
+
+>
+1 . Id: 9008  Name: Mason, D.       Address: 48 8th Street   Wallet: 11.00
+2 . Id: 9004  Name: Raman, P.       Address: 32 3rd Street   Wallet: 13.00
+3 . Id: 9003  Name: Miranskyy, A.   Address: 15 2nd Avenue   Wallet: 15.00
+4 . Id: 9006  Name: Soutchanski, M. Address: 28 7th Avenue   Wallet: 14.50
+5 . Id: 9000  Name: McInerney, T.   Address: 34 5th Street   Wallet: 25.00
+6 . Id: 9005  Name: Woungang, I.    Address: 64 6th Avenue   Wallet: 27.00
+7 . Id: 9007  Name: Harley, E.      Address: 10 7th Avenue   Wallet: 34.00
+8 . Id: 9009  Name: Santos, M.      Address: 83 4th Street   Wallet: 41.00
+9 . Id: 9001  Name: Valenzano, R.   Address: 71 1st Street   Wallet: 55.00
+10. Id: 9002  Name: Lugez, E.       Address: 55 9th Avenue   Wallet: 125.00
+
+>Total Revenue: 6.75
+
+>
+1 . Id: 7000 Name: Tom Cruise      Car Model: Toyota Corolla  License Plate: MAVERICK   Wallet: 0.75
+2 . Id: 7001 Name: Brad Pitt       Car Model: Audi S4         License Plate: FGDR 983   Wallet: 0.00
+3 . Id: 7002 Name: Millie Brown    Car Model: Tesla           License Plate: STRNGRTHGS Wallet: 0.00
+4 . Id: 7003 Name: Tim Chalamet    Car Model: Thopter         License Plate: DUNE       Wallet: 0.00
+5 . Id: 7004 Name: John Boyega     Car Model: X-Wing          License Plate: REBEL      Wallet: 0.00
+
+>Request #: Successful Drop Off - Service request #2 complete
+
+>
+1. ------------------------------------------------------------
+Type: DELIVERY  From: 31 4th avenue   To: 65 6th street  
+User: Id: 9000  Name: McInerney, T.   Address: 34 5th Street   Wallet: 25.00
+Driver: Id: 7002 Name: Millie Brown    Car Model: Tesla           License Plate: STRNGRTHGS Wallet: 0.00
+Restaurant: LaScala   Food Order #: 461
+
+>
+1 . Id: 9008  Name: Mason, D.       Address: 48 8th Street   Wallet: 11.00
+2 . Id: 9004  Name: Raman, P.       Address: 32 3rd Street   Wallet: 13.00
+3 . Id: 9003  Name: Miranskyy, A.   Address: 15 2nd Avenue   Wallet: 15.00
+4 . Id: 9006  Name: Soutchanski, M. Address: 28 7th Avenue   Wallet: 14.50
+5 . Id: 9000  Name: McInerney, T.   Address: 34 5th Street   Wallet: 25.00
+6 . Id: 9005  Name: Woungang, I.    Address: 64 6th Avenue   Wallet: 24.60
+7 . Id: 9007  Name: Harley, E.      Address: 10 7th Avenue   Wallet: 34.00
+8 . Id: 9009  Name: Santos, M.      Address: 83 4th Street   Wallet: 41.00
+9 . Id: 9001  Name: Valenzano, R.   Address: 71 1st Street   Wallet: 55.00
+10. Id: 9002  Name: Lugez, E.       Address: 55 9th Avenue   Wallet: 125.00
+
+>Total Revenue: 8.91
+
+>
+1 . Id: 7000 Name: Tom Cruise      Car Model: Toyota Corolla  License Plate: MAVERICK   Wallet: 0.75
+2 . Id: 7001 Name: Brad Pitt       Car Model: Audi S4         License Plate: FGDR 983   Wallet: 0.00
+3 . Id: 7002 Name: Millie Brown    Car Model: Tesla           License Plate: STRNGRTHGS Wallet: 0.00
+4 . Id: 7003 Name: Tim Chalamet    Car Model: Thopter         License Plate: DUNE       Wallet: 0.24
+5 . Id: 7004 Name: John Boyega     Car Model: X-Wing          License Plate: REBEL      Wallet: 0.00
+
+>
+1 . Id: 9008  Name: Mason, D.       Address: 48 8th Street   Wallet: 11.00
+2 . Id: 9004  Name: Raman, P.       Address: 32 3rd Street   Wallet: 13.00
+3 . Id: 9003  Name: Miranskyy, A.   Address: 15 2nd Avenue   Wallet: 15.00
+4 . Id: 9006  Name: Soutchanski, M. Address: 28 7th Avenue   Wallet: 14.50
+5 . Id: 9000  Name: McInerney, T.   Address: 34 5th Street   Wallet: 25.00
+6 . Id: 9005  Name: Woungang, I.    Address: 64 6th Avenue   Wallet: 24.60
+7 . Id: 9007  Name: Harley, E.      Address: 10 7th Avenue   Wallet: 34.00
+8 . Id: 9009  Name: Santos, M.      Address: 83 4th Street   Wallet: 41.00
+9 . Id: 9001  Name: Valenzano, R.   Address: 71 1st Street   Wallet: 55.00
+10. Id: 9002  Name: Lugez, E.       Address: 55 9th Avenue   Wallet: 125.00
+
+>Name: Address: Wallet: User: Ding, C.        Address: 47 8th Avenue   Wallet: 0.00
+>
+1 . Id: 9008  Name: Mason, D.       Address: 48 8th Street   Wallet: 11.00
+2 . Id: 9004  Name: Raman, P.       Address: 32 3rd Street   Wallet: 13.00
+3 . Id: 9003  Name: Miranskyy, A.   Address: 15 2nd Avenue   Wallet: 15.00
+4 . Id: 9006  Name: Soutchanski, M. Address: 28 7th Avenue   Wallet: 14.50
+5 . Id: 9000  Name: McInerney, T.   Address: 34 5th Street   Wallet: 25.00
+6 . Id: 9005  Name: Woungang, I.    Address: 64 6th Avenue   Wallet: 24.60
+7 . Id: 9007  Name: Harley, E.      Address: 10 7th Avenue   Wallet: 34.00
+8 . Id: 9009  Name: Santos, M.      Address: 83 4th Street   Wallet: 41.00
+9 . Id: 9001  Name: Valenzano, R.   Address: 71 1st Street   Wallet: 55.00
+10. Id: 9002  Name: Lugez, E.       Address: 55 9th Avenue   Wallet: 125.00
+11. Id: 90010 Name: Ding, C.        Address: 47 8th Avenue   Wallet: 0.00
+
+>
+1 . Id: 7000 Name: Tom Cruise      Car Model: Toyota Corolla  License Plate: MAVERICK   Wallet: 0.75
+2 . Id: 7001 Name: Brad Pitt       Car Model: Audi S4         License Plate: FGDR 983   Wallet: 0.00
+3 . Id: 7002 Name: Millie Brown    Car Model: Tesla           License Plate: STRNGRTHGS Wallet: 0.00
+4 . Id: 7003 Name: Tim Chalamet    Car Model: Thopter         License Plate: DUNE       Wallet: 0.24
+5 . Id: 7004 Name: John Boyega     Car Model: X-Wing          License Plate: REBEL      Wallet: 0.00
+
+>Name: Car Model: Car License: Driver: Tom Hanks       Car Model: Ford 150        License Plate: CASTAWAY  
+>
+1 . Id: 7000 Name: Tom Cruise      Car Model: Toyota Corolla  License Plate: MAVERICK   Wallet: 0.75
+2 . Id: 7001 Name: Brad Pitt       Car Model: Audi S4         License Plate: FGDR 983   Wallet: 0.00
+3 . Id: 7002 Name: Millie Brown    Car Model: Tesla           License Plate: STRNGRTHGS Wallet: 0.00
+4 . Id: 7003 Name: Tim Chalamet    Car Model: Thopter         License Plate: DUNE       Wallet: 0.24
+5 . Id: 7004 Name: John Boyega     Car Model: X-Wing          License Plate: REBEL      Wallet: 0.00
+6 . Id: 7005 Name: Tom Hanks       Car Model: Ford 150        License Plate: CASTAWAY   Wallet: 0.00
+
+>
